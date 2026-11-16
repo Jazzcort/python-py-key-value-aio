@@ -21,6 +21,7 @@ BuildRequires:  tomcli
 
 %if %{with tests}
 BuildRequires:  python3-dirty-equals
+BuildRequires:  python3-inline-snapshot
 BuildRequires:  python3-pytest
 BuildRequires:  python3-pytest-asyncio
 BuildRequires:  python3-pytest-xdist
